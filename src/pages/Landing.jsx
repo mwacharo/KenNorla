@@ -503,7 +503,7 @@ const ContactPage = () => {
                                     </div>
                                     <div>
                                         <h3 className="font-semibold text-gray-800 mb-1">Website</h3>
-                                        <p className="text-gray-600">https://kennorla.vercel.app</p>
+                                        <p className="text-gray-600">https://ken-norla.vercel.app/</p>
                                     </div>
                                 </div>
                             </div>
