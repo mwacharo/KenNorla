@@ -25,9 +25,9 @@ const Footer = () => {
                     <div>
                         <div className="flex items-center space-x-2 mb-4">
                             <div className="w-10 h-10 bg-gradient-to-br from-amber-500 to-orange-600 rounded-lg flex items-center justify-center">
-                                <span className="text-white font-bold">AHB</span>
+                                <span className="text-white font-bold">KNH</span>
                             </div>
-                            <span className="text-xl font-bold">AlphaHerb</span>
+                            <span className="text-xl font-bold">Health</span>
                         </div>
                         <p className="text-gray-400 text-sm">
                             Premium quality syrups crafted with care for your beverages and culinary creations.
@@ -53,12 +53,13 @@ const Footer = () => {
                         <ul className="space-y-3 text-gray-400 text-sm">
                             <li className="flex items-center space-x-2">
                                 <Phone size={16} className="text-amber-500" />
-                                <span>+254110771426</span>
+                                <span>+254715501030</span>
                             </li>
                             <li className="flex items-center space-x-2">
                                 <Mail size={16} className="text-amber-500" />
-                                {/* <span>sales@alphaherbherbscom</span> */}
-                                <span>sales.alphaherb@gmail.com
+                                {/* <span>sales@herbherbscom</span> */}
+                                <span>kennorlahealth@gmail.com
+
 </span>
 
                             </li>
@@ -89,7 +90,7 @@ const Footer = () => {
                 </div>
 
                 <div className="border-t border-gray-800 mt-8 pt-8 text-center text-gray-400 text-sm">
-                    <p>&copy; 2025 AlphaHerb Herbs. All rights reserved.</p>
+                    <p>&copy; 2025 Kennorla Health. All rights reserved.</p>
                 </div>
             </div>
         </footer>
@@ -118,7 +119,7 @@ const HomePage = ({ onNavigate }) => {
                             Premium Syrups for Every Occasion
                         </h1>
                         <p className="text-xl mb-8 text-amber-100">
-                            Experience the perfect blend of flavor and quality with Strongman Syrup. Made in Kenya, loved by all.
+                            Experience the perfect blend of flavor and quality with Kennorla supplements. Made in Kenya, loved by all.
                         </p>
                         <button
                             onClick={() => onNavigate('products')}
@@ -414,7 +415,7 @@ const ContactPage = () => {
             <div className="container mx-auto px-4">
                 <div className="text-center mb-12">
                     <h1 className="text-5xl font-bold mb-4 text-gray-800">Contact Us</h1>
-                    <p className="text-xl text-gray-600">Get in touch with the AlphaHerb team</p>
+                    <p className="text-xl text-gray-600">Get in touch with the Herb team</p>
                 </div>
 
                 <div className="grid md:grid-cols-2 gap-12 max-w-5xl mx-auto">
@@ -480,7 +481,7 @@ const ContactPage = () => {
                                     </div>
                                     <div>
                                         <h3 className="font-semibold text-gray-800 mb-1">Phone Number</h3>
-                                        <p className="text-gray-600">+2547110771426</p>
+                                        <p className="text-gray-600">+254715501030</p>
                                     </div>
                                 </div>
 
@@ -490,7 +491,8 @@ const ContactPage = () => {
                                     </div>
                                     <div>
                                         <h3 className="font-semibold text-gray-800 mb-1">Email</h3>
-                                        <p className="text-gray-600">sales.alphaherb@gmail.com
+                                        <p className="text-gray-600">kennorlahealth@gmail.com
+
 </p>
                                     </div>
                                 </div>
@@ -501,7 +503,7 @@ const ContactPage = () => {
                                     </div>
                                     <div>
                                         <h3 className="font-semibold text-gray-800 mb-1">Website</h3>
-                                        <p className="text-gray-600">https://alphaherb.vercel.app</p>
+                                        <p className="text-gray-600">https://kennorla.vercel.app</p>
                                     </div>
                                 </div>
                             </div>
@@ -568,8 +570,8 @@ const App = () => {
 
               {/* WhatsApp Floating Button */}
             <FloatingWhatsApp
-                phoneNumber="254110771426"
-                accountName="AlphaHerb"
+                phoneNumber="254715501030"
+                accountName="KenNorla Health"
                 chatMessage="Hello 👋 How can we help you today?"
                 statusMessage="Typically replies within 3 minutes "
             />
@@ -578,10 +580,10 @@ const App = () => {
                     <div className="flex justify-between items-center py-4">
                         <div className="flex items-center space-x-2 cursor-pointer" onClick={() => handleNavigate('home')}>
                             <div className="w-12 h-12 bg-gradient-to-br from-amber-500 to-orange-600 rounded-lg flex items-center justify-center">
-                                <span className="text-white font-bold text-xl">SM</span>
+                                <span className="text-white font-bold text-xl">KNH</span>
                             </div>
                             <div>
-                                <h1 className="text-2xl font-bold text-gray-800">AlphaHerbs</h1>
+                                <h1 className="text-2xl font-bold text-gray-800">KenNorla Health</h1>
                                 <p className="text-xs text-amber-600">Premium Syrups & Herbs</p>
                             </div>
                         </div>

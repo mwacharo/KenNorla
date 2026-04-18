@@ -52,7 +52,7 @@ const sections = [
     title: "Contact Us",
     icon: "◈",
     content: "If you have any questions about this Privacy Policy, please reach out:",
-    items: ["Business: Alpha Herb", "Phone: +254110771426", "Web: alphaherb.vercel.app"],
+    items: ["Business:  Herb", "Phone: +254110771426", "Web: herb.vercel.app"],
   },
 ];
 
@@ -351,7 +351,7 @@ const PrivacyPolicy = () => {
           </h1>
           <div className="pp-meta">
             <div className="pp-brand-line">
-              <span className="pp-brand">Alpha Herb</span>
+              <span className="pp-brand"> Herb</span>
               <span>· Last Updated March 2026</span>
             </div>
           </div>
@@ -367,7 +367,7 @@ const PrivacyPolicy = () => {
         {/* Intro */}
         <div className={`pp-intro ${visible ? "visible" : ""}`}>
           <p>
-            <strong>Alpha Herb</strong> values your privacy. This Policy explains how we collect,
+            <strong> Herb</strong> values your privacy. This Policy explains how we collect,
             use, and protect your information when you interact with our website or place an order.
           </p>
         </div>
@@ -392,7 +392,7 @@ const PrivacyPolicy = () => {
                     <li key={i}>
                       {item.startsWith("Web:") ? (
                         <a
-                          href="https://alphaherb.vercel.app/"
+                          href="https://herb.vercel.app/"
                           target="_blank"
                           rel="noopener noreferrer"
                           style={{ color: "#b4945a", textDecoration: "none" }}
@@ -412,15 +412,15 @@ const PrivacyPolicy = () => {
         {/* Footer */}
         <div className={`pp-footer ${visible ? "visible" : ""}`}>
           <div className="pp-footer-brand">
-            Alpha<span>Herb</span>
+            <span>Herb</span>
           </div>
           <a
-            href="https://alphaherb.vercel.app/"
+            href="https://herb.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
             className="pp-footer-link"
           >
-            alphaherb.vercel.app
+            herb.vercel.app
           </a>
         </div>
       </div>

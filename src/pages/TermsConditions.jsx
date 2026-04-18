@@ -67,7 +67,7 @@ const sections = [
     title: "Contact Information",
     icon: "◉",
     content: "For any questions regarding these Terms, please reach out to us directly:",
-    items: ["Business: Alpha Herb", "Phone: +254110771426", "Web: alphaherb.vercel.app"],
+    items: ["Business:  Herb", "Phone: +254110771426", "Web: herb.vercel.app"],
   },
 ];
 
@@ -362,7 +362,7 @@ const TermsConditions = () => {
           </h1>
           <div className="tc-meta">
             <div className="tc-brand-line">
-              <span className="tc-brand">Alpha Herb</span>
+              <span className="tc-brand"> Herb</span>
               <span>· Last Updated March 2026</span>
             </div>
           </div>
@@ -378,7 +378,7 @@ const TermsConditions = () => {
         {/* Intro */}
         <div className={`tc-intro ${visible ? "visible" : ""}`}>
           <p>
-            Welcome to <strong>Alpha Herb</strong>. By accessing or using our website, you agree
+            Welcome to <strong> Herb</strong>. By accessing or using our website, you agree
             to comply with and be bound by the following Terms and Conditions.
           </p>
         </div>
@@ -403,7 +403,7 @@ const TermsConditions = () => {
                     <li key={i}>
                       {item.startsWith("Web:") ? (
                         <a
-                          href="https://alphaherb.vercel.app/"
+                          href="https://herb.vercel.app/"
                           target="_blank"
                           rel="noopener noreferrer"
                           style={{ color: "#b4945a", textDecoration: "none" }}
@@ -423,15 +423,15 @@ const TermsConditions = () => {
         {/* Footer */}
         <div className={`tc-footer ${visible ? "visible" : ""}`}>
           <div className="tc-footer-brand">
-            Alpha<span>Herb</span>
+            <span>Herb</span>
           </div>
           <a
-            href="https://alphaherb.vercel.app/"
+            href="https://herb.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
             className="tc-footer-link"
           >
-            alphaherb.vercel.app
+            herb.vercel.app
           </a>
         </div>
       </div>

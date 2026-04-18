@@ -955,7 +955,7 @@ const HeroSection = ({ product, data }) => {
     <section className="hero">
       <FloatingWhatsApp
         phoneNumber="254110771426"
-        accountName="AlphaHerb"
+        accountName="Herb"
         chatMessage="Hello 👋 How can we help you today?"
         statusMessage="Typically replies within 3 minutes"
       />
@@ -1421,7 +1421,7 @@ const SalesPage = () => {
         <footer className="footer">
           <div className="footer-logo">{product.name}</div>
           <p className="footer-text">
-            © {new Date().getFullYear()} AlphaHerb. All rights reserved.<br />
+            © {new Date().getFullYear()} Herb. All rights reserved.<br />
             Results may vary. This product is not intended to diagnose, treat, cure, or prevent any disease.<br />
             Free delivery within Kenya. Pay on delivery available.
           </p>
